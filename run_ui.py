@@ -8,6 +8,7 @@ import struct
 from functools import wraps
 import threading
 import signal
+# Python 3.12 引入的 `typing.override` 特性。
 from typing import override
 from flask import Flask, request, Response, session
 from flask_basicauth import BasicAuth
